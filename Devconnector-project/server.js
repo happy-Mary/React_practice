@@ -12,7 +12,7 @@ mongoose
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.log(err));
 
-app.get('/', (req, res) => res.send('Hello Mary!!! '));
+app.get('/', (req, res) => res.send('Hello Mary'));
 
 const port = process.env.PORT || 3000;
 
